@@ -1,0 +1,20 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "webpack": "webpack",
+    "deploy": "npm run webpack && firebase deploy --only functions",
+    "serve": "npm run webpack && firebase serve --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "private": true
+}
