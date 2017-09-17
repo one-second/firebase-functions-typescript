@@ -4,13 +4,14 @@ A starter repo for firebase functions with typescript
 ## Setup
 
 ```
+npm install -g firebase-tools
 cd functions
 npm install
 ```
 
 ### .firebaserc
 
-Update your project id in the .firebaserc file
+Update your project id in the .firebaserc file so the cli knows which project to use
 
 ### service-account.json
 
@@ -19,12 +20,12 @@ It's ignored by git.
 
 ### webpack
 
-This starter uses webpack to to transpile and build the `functions/index.js` based on `functions/src/index.ts` and all it's imports.
+This starter uses webpack to transpile and build the `functions/index.js` based on `functions/src/index.ts` and all it's imports.
 
 `functions/index.js` is ignored by git.
 
 
-## serve and deploy
+### serve and deploy
 
 Currently you can only serve https functions locally.
 
